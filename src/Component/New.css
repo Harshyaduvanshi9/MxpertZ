@@ -1,12 +1,14 @@
 
 
-.container {
-    display: flex;
+ .container1 {
+    display: flex ;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    
   }
   
-  .mystery-container {
+  .mystery-container1 {
     max-width: 400px;
     padding: 20px;
     margin: 20px;
@@ -29,7 +31,7 @@
     text-align: center;
   }
   
-  .word-container {
+  .word-container1 {
     max-width: 800px;
     margin: 20px;
     display: flex;
@@ -46,7 +48,7 @@
     margin-bottom: 20px;
   }
   
-  .word-image {
+  .word-image1 {
     width: 100%;
     height: auto;
     display: block;
@@ -54,14 +56,14 @@
     border-top-right-radius: 8px;
   }
   
-  .word-title {
+  .word-title1 {
     font-size: 1.2rem;
     font-weight: bold;
     margin: 20px;
     margin-bottom: 10px;
   }
   
-  .word-text {
+  .word-text1 {
     margin: 0 20px 20px;
-  }
+  } 
   
