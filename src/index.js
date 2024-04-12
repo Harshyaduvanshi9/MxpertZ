@@ -12,16 +12,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const appR=createBrowserRouter([{
 path:"/",
 element:<App />,
-// children:[{
-
-//   path:"/stories/:storyId",
-//   element:<StoryDetails/>
-
-// }]
 
 },{
 
-  path:"/stories/:storyId",
+  path:"/stories/:_id",
   element:<StoryDetails />
 }
 
